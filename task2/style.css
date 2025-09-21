@@ -1,0 +1,64 @@
+.third-paragraph {
+    color: #ce003e;
+    font-weight: normal;
+}
+
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Type selector */
+p {
+    margin-bottom: 10px;
+}
+
+/* Grouping selector */
+p, h2 {
+    font-family: Arial, sans-serif;
+}
+
+/* Class selector */
+.highlight {
+    background: yellow;
+}
+
+/* ID selector */
+#special {
+    font-style: italic;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+    color: green;
+}
+
+/* Descendant selector */
+div span {
+    color: orange;
+}
+
+/* Child selector */
+ul > li {
+    list-style-type: square;
+}
+
+/* Adjacent sibling selector */
+h2 + p {
+    color: purple;
+}
+
+/* General sibling selector */
+h2 ~ p {
+    font-size: 1.1em;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    letter-spacing: 2px;
+}
